@@ -1,0 +1,35 @@
+
+ Category CRUD operation APIs
+
+1) GET all the categories          http://localhost:8080/api/categories
+
+2) POST - create a new category    http://localhost:8080/api/categories
+
+3) GET category by Id              http://localhost:8080/api/categories/{id}
+
+4)PUT - update category by id      http://localhost:8080/api/categories/{id}
+
+5)DELETE - Delete category by id   http://localhost:8080/api/categories/{id}
+
+6)GET all category and product    http://localhost:8080/api/categories/{id}/products
+
+7) POST category_id into product  http://localhost:8080/api/categories/{id}/products
+----------------------------------------------------------------------------
+
+Product CRUD operation APIs
+
+1) GET all the products            http://localhost:8080/api/products
+
+2) POST - create a new products    http://localhost:8080/api/products
+
+3) GET products by Id              http://localhost:8080/api/products/{id}
+
+4)PUT - update products by id      http://localhost:8080/api/products/{id}
+
+5)DELETE - Delete products by id   http://localhost:8080/api/products/{id}
+
+
+
+
+Relation between Category-Products should have one-to-many relation. (One
+category can have multiple products).
